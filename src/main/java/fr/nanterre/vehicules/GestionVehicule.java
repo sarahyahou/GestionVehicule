@@ -19,6 +19,8 @@ public class GestionVehicule {
                         new Vehicule("AB-123-CD", "Dacia", "Sandero", 2020)));
         System.out.println("Modification EF-456-GH : "
                 + ModifierVehicule.modifier(parc, "EF-456-GH", "Peugeot", "308", 2022));
+ut.println("Suppression IJ-789-KL : "
+ + SupprimerVehicule.supprimer(parc, "IJ-789-KL"));
         afficher(parc);
     }
 
