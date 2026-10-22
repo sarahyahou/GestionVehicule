@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class GestionVehicule {
-    static final String VERSION = "0.5.1";
+    static final String VERSION = "0.7.1";
 
     public static void main(String[] args) {
 System.out.println("Gestion de véhicules - Parc de Nanterre stable - v" + VERSION);
@@ -25,7 +25,7 @@ System.out.println("Suppression IJ-789-KL : "
     }
 
     static void afficher(List<Vehicule> parc) {
-        System.out.println(parc.size() + " véhicules dans le parc :");
+        System.out.println(parc.size() + " véhicule(s) dans le parc :");
         for (Vehicule v : parc) {
             System.out.println(" " + v);
         }
