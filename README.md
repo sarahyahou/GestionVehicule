@@ -9,3 +9,4 @@ git config core.hooksPath .githooks
 ```
 
 Les hooks vérifient le format du message de commit et lancent les tests avant chaque commit.
+Voir aussi : git lg
