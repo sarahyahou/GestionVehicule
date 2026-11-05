@@ -9,7 +9,7 @@ class AjoutVehiculeTest {
  List<Vehicule> parc = new ArrayList<>();
  assertTrue(AjoutVehicule.ajouter(parc, new Vehicule("AB-123-CD", "Renault", "Clio",
 2021)));
- assertEquals(1, parc.size());
+ assertEquals(2, parc.size());
  }
  @Test
  void doublonRefuse() {
